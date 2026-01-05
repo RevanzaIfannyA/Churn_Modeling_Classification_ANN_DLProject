@@ -7,26 +7,17 @@ import pickle
 
 from pathlib import Path
 
-# Base directory
-BASE_DIR = Path(__file__).parent
-
-# Paths to artifacts
-MODEL_PATH = BASE_DIR / "artifacts" / "model" / "model.h5"
-OHE_GENDER_PATH = BASE_DIR / "artifacts" / "preprocessing" / "OHE_gender.pkl"
-OHE_GEO_PATH = BASE_DIR / "artifacts" / "preprocessing" / "OHE_geo.pkl"
-SCALER_PATH = BASE_DIR / "artifacts" / "preprocessing" / "scaler.pkl"
-
 # Load the trained model
-model = tf.keras.models.load_model(MODEL_PATH)
+model = tf.keras.models.load_model("model.h5")
 
-# Load the encoders and scaler
-with open(OHE_GENDER_PATH, "rb") as file:
+# Load the encoders and scalar
+with open("OHE_gender.pkl", "rb") as file:
     onehot_encoder_gender = pickle.load(file)
 
-with open(OHE_GEO_PATH, "rb") as file:
+with open("OHE_geo.pkl", "rb") as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open(SCALER_PATH, "rb") as file:
+with open("scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # Streamlit app
