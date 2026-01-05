@@ -6,16 +6,16 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("artifacts/model/model.h5")
 
 # Load the encoders and scalar
-with open("OHE_gender.pkl", "rb") as file:
+with open("artifacts/preprocessing/OHE_gender.pkl", "rb") as file:
     onehot_encoder_gender = pickle.load(file)
 
-with open("OHE_geo.pkl", "rb") as file:
+with open("artifacts/preprocessing/OHE_geo.pkl", "rb") as file:
     onehot_encoder_geo = pickle.load(file)
 
-with open("scaler.pkl", "rb") as file:
+with open("artifacts/preprocessing/scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
 
 # Streamlit app
