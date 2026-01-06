@@ -112,9 +112,9 @@ This ensures that:
 - **Final Model Saved**: `model.h5`
 
 epoch_accuracy:
-![Epoch Accuracy](images/epoch_accuracy.png)
+![Epoch Accuracy](Images/epoch_accuracy.png)
 epoch_loss:
-![Epoch Loss](images/epoch_loss.png)
+![Epoch Loss](Images/epoch_loss.png)
 
 ---
 
@@ -168,7 +168,7 @@ Both models are deployed as **interactive web applications** using **Streamlit**
 - **Proper preprocessing using training-fitted encoders**
 - Clear churn/stay recommendation
 
-![Churn Prediction App](images/Churn%20app.png)
+![Churn Prediction App](Images/Churn%20app.png)
 
 ### 2. Salary Prediction App
 **Live URL**: [https://churnmodelingclassificationanndlproject-salary.streamlit.app/](https://churnmodelingclassificationanndlproject-salary.streamlit.app/)
@@ -179,7 +179,7 @@ Both models are deployed as **interactive web applications** using **Streamlit**
 - **Leakage-free preprocessing pipeline**
 - Clean, professional UI
 
-![Salary Prediction App](images/Salary%20app.png)
+![Salary Prediction App](Images/Salary%20app.png)
 
 ---
 
