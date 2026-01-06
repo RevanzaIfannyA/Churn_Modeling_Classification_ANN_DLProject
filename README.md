@@ -112,9 +112,11 @@ This ensures that:
 - **Final Model Saved**: `model.h5`
 
 epoch_accuracy:
+
 ![Epoch Accuracy](Images/epoch_accuracy.png)
 
 epoch_loss:
+
 ![Epoch Loss](Images/epoch_loss.png)
 
 ---
