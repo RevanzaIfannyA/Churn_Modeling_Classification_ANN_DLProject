@@ -19,6 +19,56 @@ The objective is to build **two separate Artificial Neural Network (ANN) models*
 
 ---
 
+## 📌 Important Note for Recruiters / Portfolio Reviewers
+
+> 🎯 **This project has a specific focus: Deep Learning implementation (ANN), model deployment, and identifying/fixing data leakage issues.**
+
+This project is **intentionally scoped** to demonstrate:
+- End-to-end ANN development for classification & regression
+- Proper preprocessing pipelines without data leakage
+- Hyperparameter tuning with cross-validation
+- Model deployment using Streamlit
+
+**What this project does NOT emphasize:**
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Data cleaning
+- Statistical analysis
+
+The dataset used is **already clean** and provided as-is from the bootcamp curriculum, so data cleaning/analysis steps are purposely omitted to focus solely on the deep learning workflow.
+
+---
+
+### 🔍 To See My Data Analysis & Feature Engineering Skills
+
+If you are evaluating my **full data science capabilities** (including EDA, data cleaning, feature engineering, business insights, and risk modeling), please refer to my other project:
+
+### 📊 [**Lending Club Credit Risk Modeling**](https://github.com/RevanzaIfannyA/lending-club-credit-risk-modeling)
+
+That project demonstrates:
+- Comprehensive EDA with visualizations
+- Handling missing data and outliers
+- Feature engineering and selection
+- Business-driven insights
+- Multiple modeling approaches with interpretation
+
+---
+
+### ✅ Summary for Recruiters
+
+| Skill Area | This Project (Churn ANN) | Lending Club Project |
+|------------|--------------------------|----------------------|
+| Deep Learning / ANN | ✅ **Primary focus** | ❌ |
+| Model Deployment (Streamlit) | ✅ | ❌ |
+| EDA & Data Cleaning | ❌ (dataset already clean) | ✅ |
+| Feature Engineering | ❌ | ✅ |
+| Business Insights | ❌ | ✅ |
+| Leakage Prevention | ✅ | ✅ |
+
+**Both projects complement each other** – this one showcases my deep learning & deployment skills, while the Lending Club project showcases my data analysis & feature engineering capabilities.
+
+---
+
 ## 🚨 Critical Fix: Eliminating Data Leakage
 
 The original tutorial code contained a **critical data leakage bug**:
